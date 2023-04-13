@@ -30,6 +30,9 @@
                         <li class="list-group-item">
                             <a href="<?php $_SERVER['PHP_SELF']; ?>?menu=4">Text</a>
                         </li>
+                        <li class="list-group-item">
+                            <a href="<?php $_SERVER['PHP_SELF']; ?>?menu=5">Operatoren</a>
+                        </li>
                     </ul>
 				</div>
 				<div class="col-9 bg-light">
@@ -83,7 +86,7 @@
 
                         case 3:
                             ?>
-                            <form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST" id="daten" name="daten">
+                            <form action="<?php $_SERVER['PHP_SELF']; ?>?menu=1" method="POST" id="daten" name="daten">
                                 <div class="mb-3">
                                     <label for="vorname" class="form-label">Vorname</label>
                                     <input type="text" class="form-control" id="vorname" name="vn" aria-describedby="emailHelp">
@@ -125,6 +128,15 @@
 
                         case 4:
                             include("pages/text.html");
+                            break;
+                        case 5:
+
+                            $zahl1 = 10;
+                            $zahl2 = 5;
+                            $ergebnis = $zahl1 + $zahl2;
+
+                            echo "<p>Die Summe von $zahl1 und $zahl2 ist $ergebnis</p>";
+
                             break;
                     }
                     ?>
