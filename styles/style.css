@@ -1,0 +1,135 @@
+/*
+*{
+ margin: 0;
+}
+*/
+
+
+body{
+	margin: 0;
+}
+
+/*
+h1 { 
+	font-family: Helvetica;
+	font-size: 3vw;
+	color: black;
+	align-content: center;
+	background-color: aqua;
+	width: 200px;
+	text-align: center;
+	margin-left: 42.5%;
+}
+*/
+
+h2 { 
+	font-family: Helvetica;
+	font-size: 2vw;
+	color: gray;
+	align-content: center;
+	margin-left: 47%;
+}
+
+h3 { 
+	font-family: Helvetica;
+	font-size: 1.4em;
+	color: gray;
+	align-content: center;
+	margin-left: 47.5%;
+}
+
+h4 { 
+	font-family: Helvetica;
+	font-size: 1.4em;
+	color: darkgray;
+	align-content: center;
+	margin-left: 47.5%;
+}
+
+.header1{
+	font-size: 2.5vw;
+	color: darkred;
+	align-content: center;
+	margin-left: 41%;
+	text-decoration: underline;
+}
+
+#notiz{
+	width: 20%;
+	height: 20%;
+	background-color: chartreuse;
+	color:blue;
+	position: fixed;
+	top: 40%;
+	right: 10%;
+	font-size: 1.85vw;
+}
+
+#login{
+	
+}
+
+
+
+
+
+
+
+
+#container{
+	background-color: darkcyan;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*border: 1px solid #FFFFFF;*/
+	/* z-index: -5; */
+}
+
+#kopfzeile{
+	background-color: mediumspringgreen;
+	width: 100%;
+	height: 15%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#menue{
+	background-color: paleturquoise;
+	width: 10%;
+	height: 80%;
+	position: fixed;
+	top: 15%;
+	right: 0;
+}
+
+#inhalt{
+	background-color: mediumaquamarine;
+	width: 80%;
+	height: 80%;
+	position: fixed;
+	top: 15%;
+	left: 10%;
+	overflow: scroll;
+	/*margin: 1%;*/
+}
+
+#werbung{
+	background-color:mediumseagreen;
+	width: 10%;
+	height: 80%;
+	position: fixed;
+	top: 15%;
+	left: 0;
+}
+
+#fusszeile{
+	background-color:teal;
+	width: 100%;
+	height: 5%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
